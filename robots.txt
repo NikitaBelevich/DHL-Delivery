@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /icomoon-v1.0/
+Disallow: /fonts/
+Disallow: /Plyr-video-library/
+Disallow: /js/
+Disallow: /css/
+Crawl-delay: 0.5

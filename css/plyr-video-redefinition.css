@@ -1,0 +1,24 @@
+.plyr--video,
+.plyr__video-wrapper{
+    height: 100%;
+}
+.plyr audio, .plyr video{
+    height: inherit;
+}
+.plyr__poster{
+    background-size: cover;
+    background-position: 75% 50%;
+}
+.plyr__control--overlaid{
+    padding: 26px;
+    color: var(--basicColorRed);
+    box-shadow: 0 6px 26px -1px #fc0;
+    background-color: var(--basicColorYellow);
+}
+
+/* изначально панель скрыта */
+.plyr--video .plyr__controls{
+    visibility: hidden;
+    z-index: -3;
+}
+/* изначально панель скрыта */

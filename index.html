@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Заказать!">
+    <title>DHL</title>
+
+    <base href="/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script> <!-- defer убрать если что-то не работает-->
+    <!-- Lazyload -->
+    <script src="/js/min/lazysizes.min.js" async></script>
+    <!-- Lazyload -->
+    <!-- своя сборка иконок, подключается в main-style -->
+    <!-- Plyr-videojs -->
+    <script src="Plyr-video-library/plyr.min.js" defer></script>
+    <link rel="stylesheet" href="Plyr-video-library/plyr-min.css">
+    <!-- Plyr-videojs -->
+    <!-- select2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js" defer></script>
+    <!-- select2 -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/min/main-style-min.css">
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="container"><!-- 1175 -->
+            <div class="header-top-line">
+                <form action="select.php" class="header-form-language">
+                    <div class="language">
+                        <div id="button-select-lang">English <span class="icon-chevron-down-solid"></span></div>
+                        <ul class="language-ul">
+                            <li class="language__select"><a href="#">German</a></li>
+                            <li class="language__select"><a href="#">English</a></li>
+                            <li class="language__select"><a href="#">Russian</a></li>
+                            <li class="language__select"><a href="#">France</a></li>
+                            <li class="language__select"><a href="#">Spanish</a></li>
+                        </ul>
+                    </div>
+                </form>
+                <div class="header-profile-contact">
+                    <a href="#" class="contact"><span class="icon-users-solid"></span>Contact Center</a>
+                    <a href="#" class="country">Country Profile <span class="icon-chevron-down-solid"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu-search">
+            <div class="container">
+                <div class="header-menu-search-wrapper">
+                    <a href="index.html" class="logo">
+                        <picture>
+                            <source srcset="images/optimize-img/logo-nav.webp" type="image/webp">
+                            <img src="images/optimize-img/logo-nav.jpg" alt="Logo DHL">
+                        </picture>
+                    </a>
+
+                    <nav class="navigation">
+                        <div class="navigation__mobile">
+                            <input type="checkbox">
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                            <span id="span3"></span>
+                        </div>
+                        <div class="navigation__menu-wrapper">
+                            <ul class="menu">
+                                <li><a href="#" class="links-menu">Express</a></li>
+                                <li><a href="#" class="links-menu">Parcel & Ecommerce</a></li>
+                                <li><a href="#" class="links-menu">Logistics</a></li>
+                                <li><a href="#" class="links-menu">Mail</a></li>
+                                <li><a href="#" class="links-menu">Press</a></li>
+                                <li><a href="#" class="links-menu">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="navigation__mobile-overley"></div>
+                    </nav>
+
+                    <form action="#" class="search-form">
+                        <input type="search" name="search-nav" autocomplete="off" aria-label="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-section">
+        <div class="container">
+            <div class="main-section__wrapper">
+                <h1 class="main-section__title">We Deliver <br> With Speed</h1>
+                <hr>
+                <p class="main-section__paragraph">When an unknown printer took a galley of type and scrambled <br> it to make a type specimen book. It has survived not only five centuries</p>
+                <div class="main-section__advantages">
+                    <strong class="advantages__word">Amazing</strong>
+                    <strong class="advantages__word"><span class="icon-circle-solid"></span>Quick</strong>
+                    <strong class="advantages__word"><span class="icon-circle-solid"></span>24/7 Supports</strong>
+                </div>
+                <div class="main-section__buttons">
+                    <button class="buttons__button-one buttons_modifier" type="button">Learn More</button>
+                    <button class="buttons__button-two buttons_modifier" type="button">dhl worldwide</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="awesome">
+        <div class="container">
+            <!-- <div class="awesome__title"> -->
+                <h2 class="awesome__title">Awesome Services</h2>
+            <!-- </div> -->
+            <div class="awesome__module-cards">
+                <div class="awesome__module-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-1.webp" type="image/webp">
+                        <img class="lazyload" data-src="images/optimize-img/img-block/block-1.jpg" alt="">
+                    </picture>
+                    <h3 class="card__title">Express Services</h3>
+                    <p class="card__description">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                    <a href="#" class="card__read" data-icon-link="i1">Read More<span class="icon-caret-right-solid"></span></a>
+                </div>
+                <div class="awesome__module-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-2.webp" type="image/webp">
+                        <img class="lazyload" data-src="images/optimize-img/img-block/block-2.jpg" alt="">
+                    </picture>
+                    <h3 class="card__title">parcel & ecommerce</h3>
+                    <p class="card__description">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                    <a href="#" class="card__read" data-icon-link="i2">Read More<span class="icon-caret-right-solid"></span></a>
+                </div>
+                <div class="awesome__module-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-3.webp" type="image/webp">
+                        <img class="lazyload" data-src="images/optimize-img/img-block/block-3.jpg" alt="">
+                    </picture>
+                    <h3 class="card__title">frieght transport</h3>
+                    <p class="card__description">When an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+                    <a href="#" class="card__read" data-icon-link="i3">Read More<span class="icon-caret-right-solid"></span></a>
+                </div>
+                <aside class="awesome__module-cards__card aside-card">
+                    <div class="aside-card__title">DHI Worldwide</div>
+                    <p class="aside-card__description">When an unknown prot printer type and scra</p>
+                    <form action="#" class="aside-card__form">
+                        <select class="aside-card__form__select" name="state">
+                            <option selected disabled>Location</option>
+                            <optgroup label="United States of America">
+                                <option>Albuquerque</option>
+                                <option>Anchorage</option>
+                                <option>Georgia</option>
+                                <option>Baltimore</option>
+                            </optgroup>
+                            <optgroup label="France">
+                                <option>Paris</option>
+                                <option>Marseille</option>
+                                <option>Toulouse</option>
+                                <option>Nice</option>
+                            </optgroup>
+                            <optgroup label="United Kingdom">
+                                <option>Aberdeen</option>
+                                <option>Belfast</option>
+                                <option>Birmingham</option>
+                                <option>Cambridge</option>
+                            </optgroup>
+                        </select>
+                    </form>
+                    <button class="aside-card__button buttons_modifier" type="button">explore</button>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="video-about-DHL">
+        <h2 class="video-about-DHL__title">One of the best international service provider</h2>
+        <video poster="images/optimize-img/bg/webp/bg-2-overlay.webp" preload="metadata" id="player-plyr">
+            <source src="video/DHL-Express.mp4" type='video/mp4'>
+            <source src="video/DHL-Express.webm" type='video/webm'>
+            <source src="video/DHL-Express.ogv" type='video/ogg'>
+        </video>
+    </section>
+
+    <section class="express-logistics">
+        <div class="container express-container_reset-padd">
+            <div class="statements-cards">
+                <div class="statements-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-4.webp" type="image/webp">
+                        <img data-src="images/optimize-img/img-block/block-4.jpg" class="statements-cards__card__image lazyload" alt="Truck DHL">
+                    </picture>
+                    <div class="statements-cards-card__list">
+                        <h4 class="statements-card__title">Aerospace Provider</h4>
+                        <ul class="statements-card__ul">
+                            <li><span class="icon-caret-right-solid"></span>When an unknown printer took.</li>
+                            <li><span class="icon-caret-right-solid"></span>Make a type specimen book.</li>
+                            <li><span class="icon-caret-right-solid"></span>It has survived.</li>
+                            <li><span class="icon-caret-right-solid"></span>Airlines unknown specimen.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="statements-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-5.webp" type="image/webp">
+                        <img data-src="images/optimize-img/img-block/block-5.jpg" class="statements-cards__card__image lazyload" alt="Vans DHL">
+                    </picture>
+                    <div class="statements-cards-card__list">
+                        <h4 class="statements-card__title">Poppins Proved</h4>
+                        <ul class="statements-card__ul">
+                            <li><span class="icon-caret-right-solid"></span>When an unknown printer took.</li>
+                            <li><span class="icon-caret-right-solid"></span>Make a type specimen book.</li>
+                            <li><span class="icon-caret-right-solid"></span>It has survived.</li>
+                            <li><span class="icon-caret-right-solid"></span>Airlines unknown specimen.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="statements-cards__card">
+                    <picture>
+                        <source data-srcset="images/optimize-img/img-block/webp/block-6.webp" type="image/webp">
+                        <img data-src="images/optimize-img/img-block/block-6.jpg" class="statements-cards__card__image lazyload" alt="Сargo aircraft DHL">
+                    </picture>
+                    <div class="statements-cards-card__list">
+                        <h4 class="statements-card__title">Airline Specimen</h4>
+                        <ul class="statements-card__ul">
+                            <li><span class="icon-caret-right-solid"></span>When an unknown printer took.</li>
+                            <li><span class="icon-caret-right-solid"></span>Make a type specimen book.</li>
+                            <li><span class="icon-caret-right-solid"></span>It has survived.</li>
+                            <li><span class="icon-caret-right-solid"></span>Airlines unknown specimen.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-block-image">
+                <div class="tabs-block-image__tabs">
+                    <header class="tabs">
+                        <div class="tab-active tab" data-tab="express">express</div>
+                        <div class="tab" data-tab="logistics">logistics</div>
+                    </header>
+                    <section class="wrapper-tabs" data-tab="express">
+                        <div class="accordion-open" data-button-accordion="1">
+                            <div class="accordion-open__caption">Track your shipment</div>
+                            <div class="accordion-open__icon"><span class="icon-chevron-down-solid"></span></div>
+                        </div>
+                        <div class="tabs__dropdown" data-dropdown="1">
+                            <p class="dropdown__title">International Services to Another Country</p>
+                            <ul class="dropdown__list">
+                                <li><span class="icon-caret-right-solid"></span>Emergency</li>
+                                <li><span class="icon-caret-right-solid"></span>Time Critical</li>
+                                <li><span class="icon-caret-right-solid"></span>Less Urgent</li>
+                            </ul>
+                        </div>
+
+                        <div class="accordion-open" data-button-accordion="2">
+                            <div class="accordion-open__caption">New login</div>
+                            <div class="accordion-open__icon"><span class="icon-chevron-down-solid"></span></div>
+                        </div>
+                        <div class="tabs__dropdown" data-dropdown="2">
+                            <p class="dropdown__title">International Services to Another Country</p>
+                            <ul class="dropdown__list">
+                                <li><span class="icon-caret-right-solid"></span>Emergency</li>
+                                <li><span class="icon-caret-right-solid"></span>Time Critical</li>
+                                <li><span class="icon-caret-right-solid"></span>Less Urgent</li>
+                            </ul>
+                        </div>
+
+                        <div class="accordion-open" data-button-accordion="3" data-load-YaAPI="load-YaAPI">
+                            <div class="accordion-open__caption">Find Dhl point</div>
+                            <div class="accordion-open__icon"><span class="icon-chevron-down-solid"></span></div>
+                        </div>
+                        <div class="tabs__dropdown tab-preload-map" data-dropdown="3">
+                            <div class="tabs__dropdown__preload-wrapper">
+                                <img class="tabs__dropdown__svg-map-preload"
+                                    src="images/optimize-img/icons/preloader-map.svg" alt="">
+                            </div>
+                            <div class="dropdown__map" id="dropdown__map"></div>
+                        </div>
+
+                        <div class="accordion-open" data-button-accordion="4">
+                            <div class="accordion-open__caption">find a service</div>
+                            <div class="accordion-open__icon"><span class="icon-chevron-down-solid"></span></div>
+                        </div>
+                        <div class="tabs__dropdown" data-dropdown="4">
+                            <p class="dropdown__title">International Services to Another Country</p>
+                            <ul class="dropdown__list">
+                                <li><span class="icon-caret-right-solid"></span>Emergency</li>
+                                <li><span class="icon-caret-right-solid"></span>Time Critical</li>
+                                <li><span class="icon-caret-right-solid"></span>Less Urgent</li>
+                            </ul>
+                        </div>
+
+                    </section>
+
+                    <section class="wrapper-tabs" data-tab="logistics">
+                        <div class="accordion-open" data-button-accordion="5">
+                            <div class="accordion-open__caption">Track your shipment</div>
+                            <div class="accordion-open__icon"><span class="icon-chevron-down-solid"></span></div>
+                        </div>
+                        <div class="tabs__dropdown" data-dropdown="5">
+                            <p class="dropdown__title">International Services to Another Country</p>
+                            <ul class="dropdown__list">
+                                <li><span class="icon-caret-right-solid"></span>Emergency</li>
+                                <li><span class="icon-caret-right-solid"></span>Time Critical</li>
+                                <li><span class="icon-caret-right-solid"></span>Less Urgent</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+                
+                <div class="tabs-block-image__image">
+                    <div class="tabs-block-image__border"></div>
+                    <div class="tabs-block-image__wrapper">
+                        <picture>
+                            <source data-srcset="images/optimize-img/img-block/webp/block-7.webp" type="image/webp">
+                            <img class="lazyload" data-src="images/optimize-img/img-block/block-7.jpg" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="images/optimize-img/logo-nav.webp" type="image/webp">
+                            <img src="images/optimize-img/logo-nav.jpg" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="excellence">
+        <div class="container">
+            <div class="excellence__wrapper">
+                <div class="excellence__description-of-services">
+                    <h3 class="description-of-services__title">Excellence. Simply delivered.</h3>
+                    <p class="description-of-services__description">
+                        International express deliveries; global freight forwarding by air, sea, road and rail;
+                        warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;
+                        and other customized logistic services – with everything DHL does, we
+                        help connect people and improve their lives.
+                    </p>
+                </div>
+                <button class="excellence__wrapper__button buttons_modifier" type="button">learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients-panel">
+        <div class="container">
+            <div class="clients-panel__parent">
+                <a href="#">
+                    <div class="clients-panel__child">
+                        <picture class="clients-panel__child__logo">
+                            <source data-srcset="images/optimize-img/icons/webp/icon1.webp" type="image/webp">
+                            <img class="lazyload" data-src="images/optimize-img/icons/icon1.png" alt="">
+                        </picture>
+                        <div class="clients-panel__child__title">themeforest</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="clients-panel__child">
+                        <picture class="clients-panel__child__logo">
+                            <source data-srcset="images/optimize-img/icons/webp/icon2.webp" type="image/webp">
+                            <img class="lazyload" data-src="images/optimize-img/icons/icon2.png" alt="">
+                        </picture>
+                        <div class="clients-panel__child__title">photodune</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="clients-panel__child">
+                        <picture class="clients-panel__child__logo">
+                            <source data-srcset="images/optimize-img/icons/webp/icon3.webp" type="image/webp">
+                            <img class="lazyload" data-src="images/optimize-img/icons/icon3.png" alt="">
+                        </picture>
+                        <div class="clients-panel__child__title">graphicriver</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="clients-panel__child">
+                        <picture class="clients-panel__child__logo">
+                            <source data-srcset="images/optimize-img/icons/webp/icon4.webp" type="image/webp">
+                            <img class="lazyload" data-src="images/optimize-img/icons/icon4.png" alt="">
+                        </picture>
+                        <div class="clients-panel__child__title">codecanyon</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__sections-wrapper">
+            
+            <div class="footer__left-section">
+                <div class="footer__decorative-block-left"></div>
+                <img class="footer__left-img lazyload" data-src="images/optimize-img/block-foot-left.webp" alt="">
+            </div>
+            <div class="footer__center-section">
+                <div class="footer__center-group">
+                    <h5 class="footer__center__title">Contact Center</h5>
+                    <ul class="footer__center__list-links">
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Express</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Parcel & eCommerce</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Global Forwarding</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Freight</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Supply Chain</a></li>
+                    </ul>
+                </div>
+                <div class="footer__center-group">
+                    <h5 class="footer__center__title">About Us</h5>
+                    <ul class="footer__center__list-links">
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>Partnerships</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>Company Portrait</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>DHL Global Forwarding</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>Green Solutions</a></li>
+                        <li><a class="footer__center__link_yellow" href="#"><span class="icon-caret-right-solid"></span>Innovation</a></li>
+                    </ul>
+                </div>
+                <div class="footer__center-group">
+                    <h5 class="footer__center__title">Social Media</h5>
+                    <ul class="footer__center__list-links">
+                        <li><a class="footer__center__link_blue" href="#"><span class="icon-caret-right-solid"></span>Facebook</a></li>
+                        <li><a class="footer__center__link_blue" href="#"><span class="icon-caret-right-solid"></span>dribbble</a></li>
+                        <li><a class="footer__center__link_blue" href="#"><span class="icon-caret-right-solid"></span>behance</a></li>
+                        <li><a class="footer__center__link_blue" href="#"><span class="icon-caret-right-solid"></span>gmail</a></li>
+                        <li><a class="footer__center__link_blue" href="#"><span class="icon-caret-right-solid"></span>twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__right-section">
+                <img class="footer__right-img lazyload" data-src="images/optimize-img/block-foot-right.webp" alt="">
+                <div class="footer__decorative-block-right"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="https://api-maps.yandex.ru/2.1/?apikey=290548e9-2a26-42af-81ac-86cef8ca9d7d&lang=ru_RU" defer>
+    </script> подключается скриптом по запросу -->
+
+    <script src="/js/min/main-script-min.js" defer></script>
+   
+</body>
+</html>

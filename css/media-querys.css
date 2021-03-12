@@ -1,0 +1,347 @@
+@media screen and (max-width:1200px){
+    .awesome__title{padding-top: 9vw;}
+    .container{
+        width: auto;
+        padding: 0 15px;
+    }
+    .awesome{
+        height: auto;
+    }
+    .awesome__module-cards{
+        width: 62%;
+        margin-top: 9vw;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+    .awesome__module-cards__card{margin-bottom: calc(9.4px + 1.65vh);}
+    .video-about-DHL{
+        height: auto;
+    }
+    .video-about-DHL__title{
+        top: calc(15px + 5.95vw);
+        font-size: calc(1.2rem + 1.8vw);
+    }
+    .statements-cards__card{
+        height: auto;
+    }
+    .statements-cards__card ~ .statements-cards__card{
+        margin-left: 10px;
+    }
+    .statements-cards-card__list{
+        padding: 1.79vw;
+    }
+    .tabs-block-image__tabs{
+        width: 50%;
+    }
+    .tabs-block-image__image{
+        width: calc(250px + 14vw);
+        height: calc(300px + 11vw);
+    }
+
+    .clients-panel__parent{
+        min-height: 34.04vh;
+        width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    .footer__sections-wrapper{
+        justify-content: center;
+    }
+    .footer__left-section{
+        display: none;
+    }
+    .footer__right-section{
+        display: none;
+    }
+    .footer__center-section{
+        width: 90%;
+    }
+    .footer__center__title{
+        font-size: calc(1vw + 10px);
+    }
+    .footer__center__list-links > li{
+        font-size: calc(0.5vw + 9px);
+    }
+}
+@media screen and (max-width:992px){
+    /* mobile menu */
+    .hidden-overflow-body{overflow: hidden;}
+    .navigation{order: -1;}
+    .navigation__menu-wrapper{
+        position: fixed;
+        top: -70px;
+        left: -300px;
+        height: 100%;
+        width: 300px;
+        z-index: 10;
+        transform: translateY(70px);
+        opacity: 0;
+        transition: 0.35s ease-in-out;
+    }
+    .navigation__menu-wrapper_active{
+        left: 0;
+        opacity: 1;
+    }
+    .navigation__mobile{display: block;}
+    ul.menu{
+        margin: 0;
+        margin-top: 14vh;
+        flex-direction: column;
+    }
+    ul.menu li{
+        width: 100%;
+        transition: 0.3s ease-out;
+    }
+    ul.menu li:hover{background: #ba000026;}
+    ul.menu li + li{margin: 0;}
+    
+    ul.menu .links-menu {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 1.2rem;
+        transition: 0.3s ease-out;
+    }
+    ul.menu .links-menu:hover{padding-left: 10px; }
+    ul.menu .links-menu::after{display: none;}
+    /* overley */
+    .navigation__mobile-overley {
+        position: fixed;
+        visibility: hidden;
+        opacity: 0;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 2;
+        transition: 0.35s ease-in-out;
+    }
+    .navigation__mobile-overley_active{
+        visibility: visible;
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.45);
+    }
+    /* overley */
+    /* mobile menu */
+    .main-section{height: 100vh;}
+    h1{
+        font-size: calc(1.5rem + 4vw);
+        line-height: calc(40px + 2.38vw);
+    }
+    .awesome__title{
+        font-size: calc(25px + 1.48vw);
+    }
+    .awesome__title::before{
+        font-size: calc(75px + 4.46vw);
+    }
+    .awesome__module-cards{
+        width: 75%;
+    }
+    .plyr__poster{
+        background-position: 50% 50%;
+    }
+    .statements-cards{
+        top: calc(-75px + (-11vw));
+    }
+    .statements-card__title{
+        font-size: calc(0.6rem + 0.9vw);
+    }
+    .statements-card__ul{
+        font-size: calc(0.4rem + 0.8vw);
+    }
+    .dropdown__map{
+        height: 30vw;
+    }
+    .clients-panel__parent{
+        width: 80%;
+    }
+    .footer__center-section{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width:768px){
+    .header-profile-contact > a{padding: 12px 0 12px;}
+    /* .language-ul{left: -10px;} */
+    .language{font-size: 1.1rem;}
+    .language > ul a{padding: 10px;}
+    .header-profile-contact > a{font-size: 1.1rem;}
+    .language-ul > li{width: 200px;}
+    .awesome__module-cards{
+        width: 90%;
+        justify-content: space-around;
+    }
+    .statements-cards{
+        justify-content: center;
+        flex-wrap: wrap;
+        top: 25px;
+    }
+    .statements-cards__card ~ .statements-cards__card {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .statements-cards-card__list{
+        padding: 20px;
+    }
+    .statements-card__title{
+        font-size: 1.25rem;
+    }
+    .statements-card__ul{
+        font-size: 0.9rem;
+    }
+    .tabs-block-image{
+        padding-bottom: 8vw;
+        flex-direction: column;
+        align-items: center;
+        top: 5vh;
+    }
+    .tabs-block-image__tabs {
+        width: 75%;
+    }
+    .dropdown__map{
+        height: 50vw;
+    }
+    .tabs-block-image__image{
+        margin-top: 20px;
+    }
+    .excellence{
+        min-height: auto;
+        margin-top: calc(10px + 3vh);
+        padding: 5vh 0;
+    }
+    .excellence__wrapper{
+        flex-direction: column;
+    }
+    .description-of-services__title{
+        font-size: calc(0.8rem + 2.4vw);
+        text-align: center;
+    }
+    .excellence__wrapper__button{
+        margin-top: 3.5vh;
+    }
+    .clients-panel__parent {
+        width: 100%;
+    }
+    .clients-panel__child:not(:nth-last-child(-n+2)){
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width:576px){
+    .header-top-line{flex-direction: column;}
+    .header-form-language{width: 100%;}
+    .language-ul{
+        width: 100%;
+        left: 0;
+        box-shadow: 3px 3px 10px black;
+    }
+    .language-ul > li{width: 100%;}
+    .language > div{padding-right: 0;}
+    .header-menu-search{margin-top: 10px;}
+    .navigation__menu-wrapper{
+        width: 100%;
+        left: -100%;
+    }
+    .navigation__menu-wrapper_active{
+        left: 0;
+    }
+    .navigation__mobile_translate{transform: translate(0, -105px) rotate(180deg) ;}
+    .navigation__mobile-overley{display: none;}
+    /* section one */
+    .main-section__paragraph{
+        font-size: calc(0.5rem + 2.2vw);
+    }
+    /* section one */
+    .awesome__module-cards{width: 100%;}
+    
+    .awesome__title{
+        font-size: calc(20px + 1.48vw);
+        text-align: center;
+    }
+    .awesome__title::before{display: none;}
+    .video-about-DHL__title{
+        top: 4.5vw;
+        font-size: calc(0.5rem + 2.8vw);
+    }
+    .express-container_reset-padd{
+        padding: 0;
+    }
+    .tabs-block-image__tabs {
+        width: 100%;
+    }
+    .wrapper-tabs{
+        padding: 4vw;
+    }
+    .dropdown__map {
+        height: 80vw;
+    }
+    .tabs-block-image__image{
+        display: none;
+    }
+    .clients-panel__parent > a:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .footer__center-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__center-group:not(:first-child){
+        margin-top: 25px;
+    }
+    .footer__center__title{
+        font-size: calc(1vw + 14px);
+        text-align: center;
+    }
+    .footer__center__list-links > li{
+        text-align: center;
+        font-size: calc(0.5vw + 12px);
+    }
+}
+@media screen and (max-height:460px){
+    ul.menu{margin-top: 10px;}
+}
+
+@media screen and (max-width:820px) and (max-height: 420px){
+    /* landscape orientation moobile */
+    .main-section{
+        padding-bottom: 80px;
+    }
+    .tabs-block-image{
+        margin-top: 30px;
+    }
+    .clients-panel__child:not(:nth-last-child(-n+2)){
+        margin-bottom: 20px;
+    }
+    .footer__center-section{
+        padding-top: 20px;
+    }
+} 
+
+@media screen and (max-width:420px){
+    .language,
+    .header-profile-contact > a{font-size: calc(0.6rem + 1.35vw);}
+    .header-menu-search .logo{
+       position: absolute;
+       left: 50%;
+       margin-left: -67px;
+    }
+    .search-form{z-index: 2;}
+    .advantages__word{font-size: calc(0.5rem + 2vw);}
+    .video-about-DHL__title{
+        display: none;
+    }
+
+}
+@media screen and (max-width:370px){
+    .buttons__button-one,
+    .buttons__button-two {padding: 0 17px;}
+    .awesome__title{letter-spacing: 2px;}
+}
+@media screen and (max-width:330px){
+    .tabs-block-image{
+        margin-top: 30px;
+    }
+}
